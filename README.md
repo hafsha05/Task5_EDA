@@ -64,6 +64,8 @@ df['Sex'].value_counts()  # Count gender distribution`
 
 ### 4️⃣ Data Visualization
 
+#### a) Gender vs Survival
+
 `sns.countplot(x='Sex', hue='Survived', data=df)
 plt.title("Survival count by Gender")
 plt.show()`
