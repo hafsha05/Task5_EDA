@@ -95,14 +95,17 @@ plt.show()`
 
 Exploratory Data Analysis (EDA) is the process of examining datasets to summarize their main characteristics, often using visual methods.
 It helps to understand data patterns, detect anomalies, test assumptions, and identify relationships between variables before applying modeling or machine learning.
-Importance: It ensures data quality, guides feature selection, and provides insights for decision-making.
+
+*Importance:* It ensures data quality, guides feature selection, and provides insights for decision-making.
 
 ### 2️⃣ Which plots do you use to check correlation?
 
 #### Correlation between numerical variables can be checked using:
 
 -*Heatmap (using `sns.heatmap()`):* shows correlation coefficients between features.
+
 -*Pairplot (using `sns.pairplot()`):* visualizes scatterplots between all numeric variables.
+
 -*Scatter Plot:* useful to examine relationships between two continuous variables.
 
 ### 3️⃣ How do you handle skewed data?
@@ -110,7 +113,9 @@ Importance: It ensures data quality, guides feature selection, and provides insi
 #### To handle skewed data:
 
 -Apply log transformation, square root, or Box-Cox transformation to reduce skewness.
+
 -Use robust statistics (median, IQR) instead of mean if the data has outliers.
+
 -Visualize with histograms or boxplots to confirm improvement after transformation.
 
 ### 4️⃣ How to detect multicollinearity?
@@ -119,18 +124,22 @@ Multicollinearity occurs when independent variables are highly correlated.
 #### It can be detected using:
 
 -*Correlation Matrix:* look for correlation coefficients > 0.8 or < -0.8.
+
 -*Variance Inflation Factor (VIF):* VIF > 10 indicates high multicollinearity.
 
 ### 5️⃣ What are univariate, bivariate, and multivariate analyses?
 
 -*Univariate Analysis:* analysis of a single variable (e.g., histogram of Age).
+
 -*Bivariate Analysis:* analysis between two variables (e.g., Age vs. Fare).
+
 -*Multivariate Analysis:* analysis among more than two variables (e.g., Age, Fare, and Survival together).
 
 ### 6️⃣ Difference between heatmap and pairplot?
 
 -A *heatmap* shows the correlation between all numerical variables using colors to represent the strength of relationships.
 It gives a quick overview of which features are strongly or weakly correlated.
+
 -A *pairplot*, on the other hand, displays multiple scatterplots between pairs of variables along with histograms or KDE plots.
 It helps to visualize the distribution and relationships in detail between each pair of features.
 
@@ -139,6 +148,9 @@ It helps to visualize the distribution and relationships in detail between each 
 #### To summarize insights:
 
 -Use bullet points to highlight *key findings and trends*.
+
 -Mention *relationships*, *outliers*, and *important patterns*.
+
 -Support insights with visuals (plots, charts).
+
 -End with a short *business or data interpretation* — what the data tells you and how it helps decision-making.
